@@ -17,6 +17,7 @@
 
     <!--Custome style-->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 
 </head>
 
@@ -45,7 +46,7 @@
                 </li>
                 <li class="contact__item">
                     <a class="contact__link link" href="tel:+380961111111">
-                        <svg class="contacts__icon" width="10px" height="16px">
+                        <svg class="contact__icon" width="10px" height="16px">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
                         +38 096 111 11 11</a>
@@ -473,47 +474,47 @@
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <strong class="modal-title">Оставьте свои данные, мы вам перезвоним</strong>
+            <strong class="modal__title">Оставьте свои данные, мы вам перезвоним</strong>
 
-            <button class="modal-close-btn" data-modal-close>
-                <svg class="modal-svg" width="18" height="18">
+            <button class="modal__close" data-modal-close>
+                <svg class="modal__icon" width="18" height="18">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <form class="form" name="register-form" autocomplete="off">
-                <label class="form-field">
-                    <span class="form-label">Имя</span>
-                    <input type="text" class="modal-input" name="user-name" placeholder=" " required>
-                    <svg class="icon-form" width="18px" height="18px">
+                <label class="form__field">
+                    <span class="form__label">Имя</span>
+                    <input type="text" class="form__input" name="user-name" placeholder=" " required>
+                    <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-person"></use>
                     </svg>
                 </label>
 
-                <label class="form-field">
-                    <span class="form-label">Телефон</span>
-                    <input type="tel" class="modal-input" name="user-phone" placeholder=" " required>
-                    <svg class="icon-form" width="18px" height="18px">
+                <label class="form__field">
+                    <span class="form__label">Телефон</span>
+                    <input type="tel" class="form__input" name="user-phone" placeholder=" " required>
+                    <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-phone"></use>
                 </label>
 
-                <label class="form-field">
-                    <span class="form-label">Почта</span>
-                    <input type="email" class="modal-input" name="user-mail" placeholder=" " required>
-                    <svg class="icon-form" width="18px" height="18px">
+                <label class="form__field">
+                    <span class="form__label">Почта</span>
+                    <input type="email" class="form__input" name="user-mail" placeholder=" " required>
+                    <svg class="form__icon" width="18px" height="18px">
                         <use href="./images/icons.svg#icon-email"></use>
 
                 </label>
 
-                <label class="form-field">
-                    <span class="form-label">Комментарий</span>
-                    <textarea class="form-comment" name="user-message" placeholder="Введите текст"></textarea>
+                <label class="form__field">
+                    <span class="form__label">Комментарий</span>
+                    <textarea class="form__comment" name="user-message" placeholder="Введите текст"></textarea>
                 </label>
 
-                <label class="check-label">
+                <label class="check__label">
 
-                    <input class="modal-checkbox" type="checkbox" name="agreement"
+                    <input class="checkbox" type="checkbox" name="agreement"
                         value="Соглашаюсь с рассылкой и принимаю Условия договора" required>
-                    <svg class="icon-check" width="15px" height="15px">
+                    <svg class="checkbox__icon" width="15px" height="15px">
                         <use href="./images/icons.svg#icon-check"></use>
                     </svg>
                     Соглашаюсь с рассылкой и принимаю
