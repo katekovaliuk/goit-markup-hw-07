@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --main-font: "Roboto";
 
     --title-text-color: #212121;
@@ -13,10 +13,10 @@
 
     --anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
+} */
 
 
-body {
+/* body {
     font-family: var(--main-font), sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -25,10 +25,10 @@ body {
     background-color: var(--secondary-text-color);
 
     color: var(--primary-text-color);
-}
+} */
 
 /* reset */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -52,23 +52,23 @@ img {
 
 address {
     font-style: normal;
-}
+} */
 
-.section {
+/* .section {
     padding-top: 94px;
     padding-bottom: 94px;
-}
+} */
 
-.container {
+/* .container {
     width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     /* outline: 1px solid red; */
 
-}
+} */
 
 /* Cкидання стилів за замовчуванням*/
-.link {
+/* .link {
     text-decoration: none;
 }
 
@@ -76,19 +76,19 @@ address {
     list-style: none;
     margin: 0;
     padding: 0;
-}
+} */
 
 /* Секція Хедер */
-.header {
+/* .header {
     border-bottom: 1px solid #ECECEC;
 }
 
 .header__container {
     display: flex;
     align-items: center;
-}
+} */
 
-.logo{
+/* .logo{
     font-family: "Raleway";
     font-style: normal;
     font-weight: 700;
@@ -104,8 +104,8 @@ address {
 
 .logo__accent {
     color: var(--accent-text-color);
-}
-
+} */
+/* 
 .nav__list {
     display: flex;
 
@@ -133,10 +133,10 @@ address {
 .nav__list :hover,
 .nav__list :focus {
     color: var(--accent-text-color);
-}
+} */
 
 
-.current__link {
+/* .current__link {
     position: relative;
     color: var(--accent-text-color);
 }
@@ -154,9 +154,9 @@ address {
 
     background-color: var(--accent-text-color);
     border-radius: 2px;
-}
+} */
 
-.contact .contact__item+.contact__item {
+/* .contact .contact__item+.contact__item {
     margin-left: 40px;
 }
 
@@ -192,11 +192,11 @@ address {
 .contact__link:hover,
 .contact__link:focus {
     color: var(--accent-text-color);
-}
+} */
 
 /* Секція Hero */
 
-.hero {
+/* .hero {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -229,9 +229,9 @@ address {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--secondary-text-color);
-}
+} */
 
-.btn {
+/* .btn {
     padding: 10px 32px;
 
     font-family: inherit;
@@ -252,11 +252,11 @@ address {
 .btn:hover,
 .btn:focus {
     background-color: var(--hero-btn-accent-color);
-}
+} */
 
 /* Секція особливості */
 
-.visually-hidden {
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -268,8 +268,8 @@ address {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
+} */
+/* 
 .features__list {
     display: flex;
 }
@@ -303,11 +303,11 @@ address {
 .features__descr {
     line-height: 1.71;
     color: var(--primary-text-color);
-}
+} */
 
 
 /* Секція чим ми займаємося */
-.about {
+/* .about {
     padding-top: 0;
 }
 
@@ -350,10 +350,10 @@ address {
 
    color: var(--secondary-text-color);
    background-color: rgba(47, 48, 58, 0.8);;
-}
+} */
 
 /* Секція Наша команда */
-.team {
+/* .team {
     height: 100%;
     background-color: var(--team-background-color);
 }
@@ -405,10 +405,10 @@ address {
     line-height: 1.19;
 
     color: var(--primary-text-color);
-}
+} */
 
 /* Оформлення іконок */
-.social-media {
+/* .social-media {
     display: flex;
     justify-content: center;
 
@@ -441,13 +441,13 @@ address {
 }
 
 .social-media__icon {
-    fill: currentColor;
+    fill: currentColor; */
 }
 
 /* Секція Clients */
 
 
-.cliets__title {
+/* .cliets__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -490,26 +490,26 @@ address {
 
 .clients__icon {
     fill: currentColor;
-}
+} */
 
 /* Секція footer */
-.footer {
+/* .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-background-color);
-}
+} */
 
 
-.logo--footer {
+/* .logo--footer {
     display: block;
     margin-bottom: 20px;
 
     color: var(--secondary-text-color);
-}
+} */
 
 /* Секція Контакти */
 
-.footer__box {
+/* .footer__box {
     display: flex;
     align-items: baseline;
 }
@@ -538,7 +538,7 @@ address {
 
 
 /* Секція присоединяйтесь */
-.follow {
+/* .follow {
     margin-left: 70px;
 }
 
@@ -550,19 +550,19 @@ address {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--secondary-text-color);
-}
+}  */
 
-.social-media__link--grey {
+/* .social-media__link--grey {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-media__link--grey:hover,
 .social-media__link--grey:focus {
     background-color: var(--accent-text-color);
-}
+} */
 
 /* Секція Подпишитесь */
-.subscribe{
+/* .subscribe{
     margin-left: auto;
 }
 
@@ -601,9 +601,9 @@ address {
 .subscribe__input:focus-within,
 .subscribe__input:hover{
     border: 1px solid var(--secondary-text-color);
-}
+} */
 
-.btn--footer{
+/* .btn--footer{
     position: relative;
     padding-top: 10px;
     padding-right: 62px ;
@@ -611,36 +611,32 @@ address {
     padding-left: 29px;
     
     margin-left: 12px;
-}
+} */
 
-.btn__icon {
+/* .btn__icon {
     position: absolute;
     top: 13px;
     right: 28px;
 
     fill: var(--secondary-text-color)
-}
+} */
 
 /* Секція Фільтри */
 
-.portfolio-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 
-.filters {
+/* .filters {
     display: flex;
     justify-content: center;
-    /* margin-right: auto; */
+    margin-right: auto; 
     margin-bottom: 50px;
-    /* margin-left: auto; */
-}
+     margin-left: auto; 
+} 
 
-.filters__item+.filters__item {
+/* .filters__item+.filters__item {
     margin-left: 8px;
-}
+} */
 
-.btn--filters {
+/* .btn--filters {
     padding: 6px 22px;
 
     font-weight: 500;
@@ -660,49 +656,53 @@ address {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
     color: var(--secondary-text-color);
-}
+} */
 
 /* Секція Портфоліо */
-.portfolio-flex {
+/* .grid {
     display: flex;
     flex-wrap: wrap;
 
 }
 
-.portfolio-item {
-    /* position: relative; */
+.grid__item {
+    position: relative; 
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    /* border: 1px solid #EEEEEE; */
+    border: 1px solid #EEEEEE;
 }
 
-.portfolio-item:nth-child(3n) {
+.grid__item:nth-child(3n) {
     margin-right: 0;
 
 }
 
-.portfolio-item:nth-last-child(-n + 3) {
+.grid__item:nth-last-child(-n + 3) {
     margin-bottom: 0;
-    /* background-color: orange; */
+    background-color: orange; 
 }
 
-.portfolio-item-card{
+.grid__link{
     display: block;
 
-    /* overflow: hidden; */
-    
     transition: box-shadow var(--anim)
-    
 }
 
-.portfolio-item-card:hover,
-.portfolio-item-card:focus {
+.grid__link:hover,
+.grid__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
     ;
 }
 
-.portfolio-card {
+.grid__img {
+    position: relative;
+    display: block;
+
+    overflow: hidden;
+}
+
+.grid__card {
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
@@ -711,7 +711,13 @@ address {
 
 }
 
-.portfolio-item-title {
+.grid__link:hover .overlay,
+.grid__link:focus .overlay {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.grid__title {
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -722,23 +728,17 @@ address {
     color: var(--title-text-color);
 }
 
-.portfolio-item-descr {
+.grid__descr {
     font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
 
-}
+} */
 
-.portfolio-img{
-    position: relative;
-    display: block;
-
-    overflow: hidden;
-}
 
 /* портфоліо оверлей */
 
-.portfolio-overlay{
+/* .overlay{
     position:absolute;
     top: 0;
     left: 0;
@@ -756,22 +756,16 @@ address {
     transition: transform var(--anim), opacity var(--anim);
 }
 
-.portfolio-item-card:hover .portfolio-overlay,
-.portfolio-item-card:focus .portfolio-overlay{
-    transform: translateY(0);
-    opacity: 1; 
-}
-
-.portfolio-overlay-descr{
+.overlay__descr{
     font-size: 18px;
     line-height: 1.56;
 
     color: var(--secondary-text-color);
-}
+} */
 
 
 /* Модальне вікно */
-.backdrop{
+/* .backdrop{
     position: fixed;
     top: 0;
     left: 0;
@@ -795,9 +789,9 @@ address {
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
-}
+} */
 
-.modal{
+/* .modal{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -819,7 +813,7 @@ address {
 }
 
 
-.modal-close-btn{
+.modal__close{
     position: absolute;
     top: 8px;
     right: 8px;
@@ -838,28 +832,38 @@ address {
 
     transition: fill var(--anim);
 }
-.modal-close-btn:hover,
-.modal-close-btn:focus{
+.modal__close:hover,
+.modal__close:focus{
     fill: var(--accent-text-color);
 }
 
-.modal-title {
+.modal__title {
     display: block;
     margin-bottom: 12px;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.15;
-    /* text-align: center; */
+    /* text-align: center; 
 
     color: var(--title-text-color);
-}
+} */
 
-.form{
+/* .form{
    width: 448px;
    height: 342px;
   }
 
-.form-label{
+  .form__field {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .form__field:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+.form__label{
     display: block;
     margin-bottom: 4px;
 
@@ -870,7 +874,7 @@ address {
     color: var(--primary-text-color);
 }
 
-.modal-input {
+.form__input {
     width: 100%;
     padding: 11px 12px ;
     padding-left: 42px;
@@ -881,26 +885,18 @@ address {
     transition: border var(--anim);
 }
 
-.modal-input:focus-within,
-.modal-input:hover{
+.form__input:focus-within,
+.form__input:hover{
     outline: none;
     border: 1px solid var(--accent-text-color);
 }
 
-.form-field {
-    position: relative;
-    display: block;   
-    margin-bottom: 10px;
-}
 
-.form-field:nth-child(4){
-    margin-bottom: 0;
-}
 
-.form-comment{
+.form__comment{
     display: block;
     padding: 12px 16px;
-    /* margin-top: 4px; */
+   
     width: 100%;
     height: 120px;
 
@@ -918,13 +914,13 @@ address {
     transition: border var(--anim);
 }
 
-.form-comment:focus-within,
-.form-comment:hover{
+.form__comment:focus-within,
+.form__comment:hover{
     outline: none;
     border: 1px solid var(--accent-text-color)
 }
 
-.icon-form{
+.form__icon{
     position: absolute;
     top: 50%;
     left: 12px;
@@ -932,12 +928,12 @@ address {
     transition: fill var(--anim);
 }
 
-.form-field:focus-within > .icon-form,
-.form-field:hover>.icon-form{
+.form__field:focus-within > .form__icon,
+.form__field:hover>.form__icon{
     fill: var(--accent-text-color)
-}
+} */
 
-.check-label{
+/* .check__label{
     display: inline-block;
     margin-top:20px ;
     margin-bottom: 30px ;
@@ -947,7 +943,7 @@ address {
     color: var(--primary-text-color);
 
 }
-.modal-checkbox{
+.checkbox{
     position: absolute;
     width: 1px;
     height: 1px;
@@ -960,7 +956,7 @@ address {
     color: var(--primary-text-color);
 }
 
-.icon-check{
+.checkbox__icon{
     display: inline-block;
     margin-right: 7px;
 
@@ -970,7 +966,7 @@ address {
     transition: background-color var(--anim);
 }
 
-.modal-checkbox:checked + .icon-check{
+.checkbox:checked + .checkbox__icon{
     border-color: transparent;
     background-color: var(--accent-text-color);
     background-size: contain;
@@ -984,12 +980,12 @@ address {
   
     line-height: 1.71
       
-}
-.btn--center{
+} */
+/* .btn--center{
     display: flex;
     justify-content: center;
     margin-right: auto;
     margin-left:auto;
     padding: 10px 55px;
-}
+} */
 
