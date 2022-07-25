@@ -446,6 +446,7 @@ address {
   background-color: var(--accent-text-color);
 }
 .social-media__link--grey {
+  color: var(--secondary-text-color);
   background-color: rgba(255, 255, 255, 0.1);
 }
 .social-media__link--grey:hover, .social-media__link--grey:focus {
@@ -864,7 +865,7 @@ address {
   -webkit-transition: background-color var(--anim);
   transition: background-color var(--anim);
 }
-.checkbox:checked + .__icon {
+.checkbox:checked + .checkbox__icon {
   border-color: transparent;
   background-color: var(--accent-text-color);
   background-size: contain;

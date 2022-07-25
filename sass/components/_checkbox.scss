@@ -31,7 +31,7 @@
         transition: background-color var(--anim);
     }
 
-    &:checked+.__icon {
+    &:checked+ &__icon {
         border-color: transparent;
         background-color: var(--accent-text-color);
         background-size: contain;
